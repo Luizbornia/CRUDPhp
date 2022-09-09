@@ -32,9 +32,7 @@
           echo "<td><a class='btn btn-danger' href='editar.php?id=".$info_retornada['id']."'>Editar</a></td>";
           echo "<td><a class='btn btn-warning' href='delete.php?id=".$info_retornada['id']."'>Excluir</a></td>";
         echo "</tr>";
-      }
-      ?>    
-
+      }?>    
   </table>
   <a class="btn btn-success" href="cadastrar.php">Novo Produto</a>
 </body>

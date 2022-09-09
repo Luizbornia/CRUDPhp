@@ -30,7 +30,8 @@
                     <label for="preco">Preco</label>
                     <input type="number" class="form-control" id="preco" name="preco" step="any">
                 </div>
-                <input type="submit" value="Cadastrar">
+                <button type="submit" class="btn btn-primary">Cadastrar</button>
+                <a class="btn btn-warning" href="listar.php">Voltar</a>
             </form>
         </div>
     </div>
