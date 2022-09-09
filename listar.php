@@ -29,8 +29,8 @@
           echo "<td>".$info_retornada['marca']."</td>";
           echo "<td>".$info_retornada['estoque']."</td>";
           echo "<td>".$info_retornada['preco']."</td>";
-          echo "<td><a class='btn btn-danger' href='editar.php'>Editar</a></td>";
-          echo "<td><a class='btn btn-warning' href='excluir.php'>Excluir</a></td>";
+          echo "<td><a class='btn btn-danger' href='editar.php?id=".$info_retornada['id']."'>Editar</a></td>";
+          echo "<td><a class='btn btn-warning' href='delete.php?id=".$info_retornada['id']."'>Excluir</a></td>";
         echo "</tr>";
       }
       ?>    
