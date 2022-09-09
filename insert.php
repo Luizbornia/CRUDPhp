@@ -21,8 +21,8 @@
 </head>
 <body>
     <?php if ($insert){
-    echo "<h3>Usuario inserido</h3>";
-    echo "<a href='listar.php'>Voltar a listagem</a>";
+    echo "<h3>Produto inserido</h3>";
+    echo "<a class='btn btn-success' href='listar.php'>Voltar a listagem</a>";
     }?>
 </body>
 </html>
